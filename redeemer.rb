@@ -341,7 +341,7 @@ end
 
 if __FILE__ == $PROGRAM_NAME
   Console.clear
-  system("title Naito Redeemer | naito.sell.app")
+  system("title Verco Redeemer | viod.wtf/store")
   system(Gem.win_platform? ? "cls" : "clear")
   puts <<~BANNER.blue
     ____           __                             
@@ -350,8 +350,8 @@ if __FILE__ == $PROGRAM_NAME
  / _, _/  __/ /_/ /  __/  __/ / / / / /  __/ /    
 /_/ |_|\\___/\\__,_/\\___/\\___/_/ /_/ /_/\\___/_/     
                                                                              
-          -> https://ogu.gg/heracles                                   
-          -> Nitro Redeemer
+          -> Made by xr00t and viod.                                 
+          -> Verco Nitro Redeemer
   BANNER
 
   config = JSON.parse(File.read("config.json"))
