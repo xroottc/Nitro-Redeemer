@@ -30,7 +30,7 @@ class Console
     loop do
       $mutex.synchronize do
         elapsed = Time.now - start_time
-        system("title Naito │ Activated Accounts: #{$activated_accounts} │ Elapsed: #{elapsed.round(2)}s")
+        system("title Verco Redeemer │ Activated Accounts: #{$activated_accounts} │ Elapsed: #{elapsed.round(2)}s")
       end
       sleep 1
     end
